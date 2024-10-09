@@ -13,8 +13,8 @@ include "php/login.php";
         body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
         .container { width: 400px; margin: 100px auto; }
         .form-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        input[type="text"], input[type="password"] { width: 100%; padding: 10px; margin: 10px 0; }
-        button { padding: 10px 15px; background-color: #5cb85c; color: white; border: none; width: 100%; cursor: pointer; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 10px 0px ; margin: 20px 0; }
+        button { padding: 15px 15px; background-color: #5cb85c; color: white; border: none; width: 100%; cursor: pointer; }
         button:hover { background-color: #4cae4c; }
         .message { color: red; }
     </style>

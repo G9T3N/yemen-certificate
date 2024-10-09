@@ -34,7 +34,7 @@ if (isset($_POST['login'])) {
         // Verify password (Assuming passwords are hashed)
         if ($password== $user['password']) {
             $_SESSION['username'] = $username;
-            header('Location: dashboard.php'); // Redirect to certificate generation
+            header('Location:dashboard.php'); // Redirect to certificate generation
             exit();
         } else {
             echo '<p class="message">Invalid password!</p>';

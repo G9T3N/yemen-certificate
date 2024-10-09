@@ -100,6 +100,8 @@ $(document).ready(function() {
             data: certificateData,
             success: function(response) {
                 alert(response); // Alert success or error message
+                window.location.href = 'dashboard.php'; // Redirect after update
+
             },
             error: function(error) {
                 console.log(error);
